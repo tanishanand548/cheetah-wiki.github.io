@@ -1,0 +1,340 @@
+@media (max-width:856px) {
+
+
+    ul {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        background-color: black;
+        height: 1000%;
+        width: 100%;
+        margin: 9% -30%;
+    }
+
+    nav ul li {
+        position: absolute;
+    }
+
+    nav ul li a {
+        display: block;
+        margin-top: 4%;
+        position: absolute;
+    }
+
+    #check:checked~ul {
+        visibility: visible;
+    }
+
+}
+
+@media (max-width:1100px) {
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        margin-left: 13%;
+    }
+}
+
+@media (max-width:1000px) {
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:900px) {
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        width: 25rem;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:830px) {
+
+    .ct {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:800px) {
+
+    .cheetah {
+        height: 14em;
+    }
+
+    .cont {
+        margin-left: 1em;
+        margin-top: 3rem;
+    }
+
+    .pg {
+        font-size: 1rem;
+    }
+
+    .a {
+
+        margin: 2% 9%;
+        font-size: 59%;
+    }
+
+    .donate a {
+        font-size: 25px;
+    }
+
+    #mission {
+        font-size: 2rem;
+        margin: 11% 1%;
+    }
+
+    .c {
+        font-size: 1rem;
+        margin: -7% 0%;
+    }
+
+    .more {
+        color: white;
+        margin: 13% 1%;
+        font-size: 2em;
+    }
+
+    .t1,
+    .t2,
+    .t3,
+    .t4 {
+        color: white;
+        margin: 0% 2%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        color: white;
+        margin: 4% 0%;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:740px) {
+
+    .cheetah {
+        height: 11em;
+    }
+
+    .a {
+        margin: 2% 3%;
+        font-size: 59%;
+    }
+
+    .submit {
+        height: 3rem;
+        width: 10rem;
+        border-radius: 5px;
+        border: 1px solid rgb(228, 230, 230);
+        background-color: black;
+        margin-left: 33%;
+        margin-top: 3%;
+        color: white;
+        cursor: pointer;
+        font-family: 'Xanh Mono', monospace;
+    }
+
+    #gallery {
+        font-family: none;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        margin: 7% 0%;
+    }
+}
+
+@media (max-width:630px) {
+
+    .donate a {
+        font-size: 20px;
+    }
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        width: 19rem;
+        margin-left: 10%;
+    }
+
+    .submit {
+        height: 3rem;
+        width: 8rem;
+        border-radius: 5px;
+        border: 1px solid rgb(228, 230, 230);
+        background-color: black;
+        margin-left: 27%;
+        margin-top: 3%;
+        color: white;
+        cursor: pointer;
+        font-family: 'Xanh Mono', monospace;
+    }
+}
+
+@media (max-width:532px) {
+
+    .cheetah {
+        height: 16em;
+    }
+
+    .ct {
+        font-size: 8rem;
+    }
+
+    .donate a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:490px) {
+
+    .cheetah {
+        height: 12em;
+        margin-left: 101px;
+        /* clear: both; */
+        float: none;
+    }
+
+    .donate a {
+        font-size: 20px;
+        float: none;
+        margin: 15px -108px 8px 3px;
+    }
+
+    .ct {
+        font-size: 3rem;
+    }
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        width: 15rem;
+        height: 3em;
+        margin-left: 10%;
+    }
+
+    .submit {
+        height: 2rem;
+        width: 6rem;
+        border-radius: 5px;
+        border: 1px solid rgb(228, 230, 230);
+        background-color: black;
+        margin-left: 27%;
+        margin-top: 3%;
+        color: white;
+        cursor: pointer;
+        font-family: 'Xanh Mono', monospace;
+    }
+
+    #Contact {
+        /* text-align: center; */
+        color: white;
+        font-size: 2rem;
+        margin: 7% 21%;
+        font-family: 'Xanh Mono', monospace;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont {
+        height: 72vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .cheetah {
+        height: 12em;
+        margin-left: 68px;
+        /* clear: both; */
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .donate a {
+        font-size: 18px;
+        float: none;
+        margin: 13px 28px 8px 3px;
+    }
+
+    .cheetah {
+        height: 12em;
+        margin-left: 43px;
+        /* clear: both; */
+        float: none;
+    }
+
+    .i1,
+    .i2,
+    .i3,
+    .i4,
+    .i5,
+    .i6 {
+        /* box-shadow: 0px 0px 12px 0px white; */
+        height: 16em;
+        width: 20em;
+        border-radius: 25px;
+        margin: 1% 3%;
+        cursor: pointer;
+        border: 2px solid rgb(163, 255, 229);
+    }
+}
+
+@media (max-width: 380px) {
+
+    #name,
+    #subject,
+    #email,
+    #msg {
+        width: 13rem;
+        height: 3em;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 345px) {
+    .cheetah {
+        height: 8em;
+        margin-left: 58px;
+        /* clear: both; */
+        float: none;
+    }
+    .i1, .i2, .i3, .i4, .i5, .i6 {
+        /* box-shadow: 0px 0px 12px 0px white; */
+        height: 14em;
+        width: 16em;
+        border-radius: 25px;
+        margin: 1% 8%;
+        cursor: pointer;
+        border: 2px solid rgb(163, 255, 229);
+    }
+    .cont {
+        height: 354px;
+        max-width: 261px;
+        margin-left: 23px;
+    }
+    .donate a {
+        font-size: 17px;
+        float: none;
+        margin: 0px 0px -1px -1px;
+    }
+}
